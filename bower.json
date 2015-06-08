@@ -1,0 +1,21 @@
+{
+  "name": "jquery-orgchart",
+  "main": "jquery.orgchart.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ritesh83/jquery.orgChart",
+  "authors": [
+    "Ritesh Keswani"
+  ],
+  "description": "jquery plugin for org chart, use a javascript array as input",  
+  "keywords": [
+    "orgchart"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

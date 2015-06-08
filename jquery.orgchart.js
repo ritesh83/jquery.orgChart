@@ -201,7 +201,7 @@
                 mainTable += "<tr class='lines v'>"+linesCols+"</tr>";
 
                 mainTable += "<tr>";
-                for(var i in self.children){
+                for(var i=0; i<childLength; i++) {
                     mainTable += "<td colspan='2'>"+self.children[i].render(opts)+"</td>";
                 }
                 mainTable += "</tr>";
