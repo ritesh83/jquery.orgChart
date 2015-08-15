@@ -11,6 +11,7 @@
         onAddNode: null,
         onDeleteNode: null,
         onClickNode: null,
+        onEditNode: null,
         newNodeText: 'Add Child'
     };
 
@@ -73,6 +74,9 @@
                     h2Element.click(function(){
                         self.startEdit(id);
                     })
+                }
+                if (self.opts.onEditNode !== null) {
+                    self.opts.onEditNode(nodes[id]);
                 }
                 inputElement.replaceWith(h2Element);
             }  
@@ -230,4 +234,3 @@
     }
 
 })(jQuery);
-
