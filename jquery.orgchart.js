@@ -76,7 +76,7 @@
                     })
                 }
                 if (self.opts.onEditNode !== null) {
-                    self.opts.onEditNode(nodes[id], inputElement.val());
+                    self.opts.onEditNode(nodes[id]);
                 }
                 inputElement.replaceWith(h2Element);
             }  
