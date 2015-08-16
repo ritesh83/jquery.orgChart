@@ -58,6 +58,8 @@ onDeleteNode(node): (Function) callback function when "Delete Node" button is cl
 
 onClickNode(node): (Function) callback when a node is clicked. 
 
+onEditNode(node): (Function) callback when a node is edited. 
+
 newNodeText: (String/"Add Child") text displayed on the "Add Child" button.
 
 Note that in the callback options "onAddNode", "onDeleteNode", "onClickNode", a Node object will be passed as the parameter. You can access the data via node.data.
